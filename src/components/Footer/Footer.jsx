@@ -71,7 +71,7 @@ const Footer = () => {
             <ul>
               {quickLink01.map((item, index) =>
                 <li key={index} className="mb-4">
-                  <Link to={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</Link>
+                  <a href={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</a>
                 </li>
               )}
             </ul>
@@ -84,7 +84,7 @@ const Footer = () => {
             <ul>
               {quickLink02.map((item, index) =>
                 <li key={index} className="mb-4">
-                  <Link to={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</Link>
+                  <a href={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</a>
                 </li>
               )}
             </ul>
@@ -97,7 +97,7 @@ const Footer = () => {
             <ul>
               {quickLink03.map((item, index) =>
                 <li key={index} className="mb-4">
-                  <Link to={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</Link>
+                  <a href={item.path} className="text-[16px] leading-7 font-[400] text-textColor ">{item.display}</a>
                 </li>
               )}
             </ul>
