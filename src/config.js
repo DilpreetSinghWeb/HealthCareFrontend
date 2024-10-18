@@ -1,3 +1,3 @@
-export const BASE_URL = 'http://localhost:9000/api/v1'
+export const BASE_URL = 'https://healthcarebackend-0go4.onrender.com/api/v1'
 
 export const token = localStorage.getItem('token');
